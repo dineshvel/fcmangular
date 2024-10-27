@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1730011281933,
+  "timestamp": 1730019960360,
   "index": "/fcmangular/index.html",
   "assetGroups": [
     {
@@ -11,12 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
+        "/fcmangular/321.7e0e0aa3d523e776.js",
         "/fcmangular/favicon.ico",
+        "/fcmangular/firebase-messaging-sw.js",
         "/fcmangular/index.html",
-        "/fcmangular/main.3674211dfafb1626.js",
+        "/fcmangular/main.39510929438b7edc.js",
         "/fcmangular/manifest.webmanifest",
         "/fcmangular/polyfills.8531bc4db3af1fb3.js",
-        "/fcmangular/runtime.ed1e7854515b9fc0.js",
+        "/fcmangular/runtime.e9bf87613c6d672b.js",
         "/fcmangular/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
@@ -43,6 +45,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/fcmangular/321.7e0e0aa3d523e776.js": "e70b47ec19035d7daaf8ba88f57e148104411292",
     "/fcmangular/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
     "/fcmangular/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
     "/fcmangular/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
@@ -52,11 +55,12 @@
     "/fcmangular/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/fcmangular/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/fcmangular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/fcmangular/index.html": "c2922c27c7397ec87032839531c70da1bd81ef2c",
-    "/fcmangular/main.3674211dfafb1626.js": "36b2c20ed2cf483f049f89bcaae0602ee66bb1e2",
+    "/fcmangular/firebase-messaging-sw.js": "7195ae58bda78b70a46cd2aaf283d45113dc770c",
+    "/fcmangular/index.html": "1e46f6f8d3b4c3639f09983da4d1502c57d1a070",
+    "/fcmangular/main.39510929438b7edc.js": "ab0c6bd1e56cb80ac64af519d8464b8fa0ce0a0b",
     "/fcmangular/manifest.webmanifest": "c7c1a9b7d8e8e5138105fb81f80abcb1d9a1e564",
     "/fcmangular/polyfills.8531bc4db3af1fb3.js": "0a678a8f84b110aad4a4b22c508ef8ade3a2a3f6",
-    "/fcmangular/runtime.ed1e7854515b9fc0.js": "d00d0310bdb813288b4438e9435cb90f174c8f75",
+    "/fcmangular/runtime.e9bf87613c6d672b.js": "a4232e63f517ae1cd457b5b90b78de4e435072b1",
     "/fcmangular/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
