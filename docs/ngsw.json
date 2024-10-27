@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1730032283075,
+  "timestamp": 1730032498352,
   "index": "/fcmangular/index.html",
   "assetGroups": [
     {
@@ -12,6 +12,7 @@
       },
       "urls": [
         "/fcmangular/favicon.ico",
+        "/fcmangular/firebase-messaging-sw.js",
         "/fcmangular/index.html",
         "/fcmangular/main.1fdc19849789e020.js",
         "/fcmangular/manifest.webmanifest",
@@ -53,6 +54,7 @@
     "/fcmangular/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/fcmangular/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/fcmangular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/fcmangular/firebase-messaging-sw.js": "2272aea27de73a726d4b9c03eeda96c23168364c",
     "/fcmangular/index.html": "3b04f24590f1a2150e6fc3f5e4c5252749c3c961",
     "/fcmangular/main.1fdc19849789e020.js": "6a35564540f8e927247dd525db39b10fc6822130",
     "/fcmangular/manifest.webmanifest": "10b5a99f0cc85a6d8816228120cf3779f3542350",
