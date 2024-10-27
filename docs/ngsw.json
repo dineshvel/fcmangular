@@ -1,0 +1,66 @@
+{
+  "configVersion": 1,
+  "timestamp": 1730009771665,
+  "index": "/fcmangular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/fcmangular/321.8aeef750b9d90bd8.js",
+        "/fcmangular/favicon.ico",
+        "/fcmangular/firebase-messaging-sw.js",
+        "/fcmangular/index.html",
+        "/fcmangular/main.9bd590e82e461dad.js",
+        "/fcmangular/polyfills.9f3f1ff9ddec3bff.js",
+        "/fcmangular/runtime.badd85927b631d4f.js",
+        "/fcmangular/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/fcmangular/321.8aeef750b9d90bd8.js": "7ef69f8b7c08937f464d7625ec8974c95ca73966",
+    "/fcmangular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/fcmangular/firebase-messaging-sw.js": "f31df79ff8a1fbca33673b0304848d4786e91bf7",
+    "/fcmangular/index.html": "401e15b815fadd5b2caf090054a4290cb5fc907e",
+    "/fcmangular/main.9bd590e82e461dad.js": "3cb6800d4e495c81333427cab10267280aa14a7f",
+    "/fcmangular/polyfills.9f3f1ff9ddec3bff.js": "82dfb24ff23a4c7f0c78cefc3f2f89692671df2f",
+    "/fcmangular/runtime.badd85927b631d4f.js": "eefe786126f853a54d3b3e2da00833d7b03183b8",
+    "/fcmangular/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
