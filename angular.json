@@ -17,11 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
             "outputPath": "docs",
-=======
-            "outputPath": "dist/fcmangular",
->>>>>>> fd6bc117660a36cbff41852740ab130eb70f7413
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -31,23 +27,15 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-<<<<<<< HEAD
               "src/assets",
               "src/manifest.webmanifest"
-=======
-              "src/assets"
->>>>>>> fd6bc117660a36cbff41852740ab130eb70f7413
             ],
             "styles": [
               "src/styles.scss"
             ],
-<<<<<<< HEAD
             "scripts": [],
             "serviceWorker": true,
             "ngswConfigPath": "ngsw-config.json"
-=======
-            "scripts": []
->>>>>>> fd6bc117660a36cbff41852740ab130eb70f7413
           },
           "configurations": {
             "production": {
@@ -105,12 +93,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-<<<<<<< HEAD
               "src/assets",
               "src/manifest.webmanifest"
-=======
-              "src/assets"
->>>>>>> fd6bc117660a36cbff41852740ab130eb70f7413
             ],
             "styles": [
               "src/styles.scss"
