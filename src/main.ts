@@ -7,7 +7,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 
-  if ('serviceWorker' in navigator) {
+  /*if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/assets/firebase-messaging-sw.js')
         .then((registration) => {
@@ -17,4 +17,4 @@ platformBrowserDynamic().bootstrapModule(AppModule)
           console.error('Service Worker registration failed:', error);
         });
     });
-  }
+  }*/
