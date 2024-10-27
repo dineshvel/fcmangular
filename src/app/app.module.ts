@@ -1,6 +1,5 @@
 import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
@@ -8,7 +7,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
   declarations: [
     AppComponent
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),

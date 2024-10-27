@@ -32,7 +32,7 @@ export class FirebaseService {
     const fcmToken = await getToken(this.messaging, { vapidKey: this.VAPID_KEY });
     if (fcmToken) {
       console.log(fcmToken);
-    }
+    }  
   }
 
   setupMessageHandler() {
@@ -40,6 +40,6 @@ export class FirebaseService {
       if (payload.notification) {
         this.notifications.next(payload.notification);
       }
-    });
-  };
+    }); 
+  }; 
 }

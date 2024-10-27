@@ -6,11 +6,14 @@ import { AppModule } from './app/app.module';
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
+ // navigator.serviceWorker.register("firebase-messaging-sw.js", {scope: "firebase-cloud-messaging-push-scope"}).then(function (registration) {
+
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
+      ///fcmangular/firebase-messaging-sw.js
      // navigator.serviceWorker.register('/firebase-messaging-sw.js')
-      navigator.serviceWorker.register('/fcmangular/firebase-messaging-sw.js')
+      navigator.serviceWorker.register('/fcmangular/firebase-messaging-sw.js', {scope: "firebase-cloud-messaging-push-scope"})
         .then(registration => {
           console.log('Service Worker registered with scope:', registration.scope);
         })
@@ -18,7 +21,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
           console.error('Service Worker registration failed:', error);
         });
     });
-  }
+  } 
 
   /*if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

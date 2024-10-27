@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from './firebase.service';
 import { NotificationPayload } from '@firebase/messaging';
+import { SwUpdate } from '@angular/service-worker';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,12 +9,13 @@ import { NotificationPayload } from '@firebase/messaging';
 })
 export class AppComponent implements OnInit{
   notifications: NotificationPayload[] = [];
-  constructor(private firebase: FirebaseService) { }
+  constructor(private firebase: FirebaseService, private swUpdate: SwUpdate) { }
 
   ngOnInit() {
     this.firebase.notifications.subscribe((payload: NotificationPayload) => {
       if(payload.body) this.notifications.push(payload);
     });
+   // console.log(this.swUpdate.checkForUpdate());
   }
   onButtonClick() {
    let token= this.firebase.getFcmToken();
