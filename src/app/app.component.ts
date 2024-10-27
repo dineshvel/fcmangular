@@ -15,4 +15,9 @@ export class AppComponent implements OnInit{
       if(payload.body) this.notifications.push(payload);
     });
   }
+  onButtonClick() {
+   let token= this.firebase.getFcmToken();
+    console.log(token);
+    alert(token);
+  }
 }
