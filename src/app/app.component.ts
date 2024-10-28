@@ -9,6 +9,7 @@ import { SwUpdate } from '@angular/service-worker';
 })
 export class AppComponent implements OnInit{
   notifications: NotificationPayload[] = [];
+  tokenn:string='';
   constructor(private firebase: FirebaseService, private swUpdate: SwUpdate) { }
 
   ngOnInit() {
@@ -18,8 +19,9 @@ export class AppComponent implements OnInit{
    // console.log(this.swUpdate.checkForUpdate());
   }
   onButtonClick() {
-   let token= this.firebase.getFcmToken();
-    console.log(token);
-    alert(token);
+  // let token= this.firebase.getFcmToken();
+  this.tokenn=this.firebase.tokenn;
+   alert(this.firebase.tokenn);
+  
   }
 }

@@ -7,7 +7,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class FirebaseService {
-
+ tokenn:string='';
   firebaseConfig = {
     apiKey: "AIzaSyCLDuQGn0HlAP3s2pSm6_HD57LaPfV8zZc",
     authDomain: "fcmangular-e677c.firebaseapp.com",
@@ -28,11 +28,13 @@ export class FirebaseService {
     this.setupMessageHandler();
   }
 
-  async getFcmToken() {
+  async  getFcmToken() {
     const fcmToken = await getToken(this.messaging, { vapidKey: this.VAPID_KEY });
     if (fcmToken) {
       console.log(fcmToken);
-    }  
+      this.tokenn=fcmToken;
+    }
+     
   }
 
   setupMessageHandler() {
