@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1732868558798,
+  "index": "/fcmangular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/fcmangular/favicon.ico",
+        "/fcmangular/firebase-messaging-sw.js",
+        "/fcmangular/index.html",
+        "/fcmangular/main.1f9ac63afe3f92b9.js",
+        "/fcmangular/manifest.webmanifest",
+        "/fcmangular/polyfills.8531bc4db3af1fb3.js",
+        "/fcmangular/runtime.ed1e7854515b9fc0.js",
+        "/fcmangular/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/fcmangular/assets/icons/icon-128x128.png",
+        "/fcmangular/assets/icons/icon-144x144.png",
+        "/fcmangular/assets/icons/icon-152x152.png",
+        "/fcmangular/assets/icons/icon-192x192.png",
+        "/fcmangular/assets/icons/icon-384x384.png",
+        "/fcmangular/assets/icons/icon-512x512.png",
+        "/fcmangular/assets/icons/icon-72x72.png",
+        "/fcmangular/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/fcmangular/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/fcmangular/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/fcmangular/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/fcmangular/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/fcmangular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/fcmangular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/fcmangular/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/fcmangular/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/fcmangular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/fcmangular/firebase-messaging-sw.js": "8742d33698f7476359b9762c11a823cac847b78d",
+    "/fcmangular/index.html": "359339198ec9b585c9e430766fed798681d5a292",
+    "/fcmangular/main.1f9ac63afe3f92b9.js": "e1833dd285c7e0f1a57ae8ade7fbba2752110e15",
+    "/fcmangular/manifest.webmanifest": "10b5a99f0cc85a6d8816228120cf3779f3542350",
+    "/fcmangular/polyfills.8531bc4db3af1fb3.js": "0a678a8f84b110aad4a4b22c508ef8ade3a2a3f6",
+    "/fcmangular/runtime.ed1e7854515b9fc0.js": "d00d0310bdb813288b4438e9435cb90f174c8f75",
+    "/fcmangular/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
